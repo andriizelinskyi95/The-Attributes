@@ -1,0 +1,177 @@
+
+html , body{
+  padding: 0;
+  margin:0;
+  font-family: ;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+ 
+
+.header {
+  width: 100%;
+  padding-top: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo{
+  color: red;
+}
+.header__logo h2{
+  text-align: center;
+}
+.the{
+  padding-right: 35%;
+  font-size: 20px;
+  font-weight: 200;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav__link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+  position: relative;
+  color: #333;
+  text-decoration: none;
+  transition: color .1s linear;
+}
+
+.nav__link-red{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+  position: relative;
+  color: red;
+   transition: color .1s linear;
+}
+.nav-btn {
+	background-color:#000000;
+	border-radius:28px;
+	border:1px solid #0c0d0c;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.myButton:hover {
+	background-color:#080808;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.about{
+  background: #f1ede5;
+  
+}
+
+.about__title{
+  text-align: left;
+  width: 100%;
+  max-width: 1200px;
+  margin: 5% 29%;
+  width: 33%;
+  height: 100%;
+  overflow: hidden;
+}
+.about__title h1{
+  margin-bottom: 0px;
+}
+
+ .about__title p{
+  padding-bottom: 2%;
+}
+.about__date{
+  color:#b4a993;
+  margin-top: 2%;
+}
+.read__more{
+  color: red;
+}
+
+.pagination {
+  display: inline-block;
+  margin: 0 28%;
+
+}
+
+.pagination a {
+  color: red;
+  float: left;
+  padding: 8px 5px;
+  text-decoration: none;
+}
+
+.footer__wrapper{
+  background-color: #e3dcca;
+  display: flex;
+
+}
+.footer__wrapper h3{
+  margin: 0;
+  font-weight: normal;
+}
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+
+}
+
+.join{
+  margin: 1% 2%;
+  text-decoration: none;
+  list-style: none;
+}
+
+.join li{
+  margin: 5%;
+}
+input,
+label {
+  background: #e3dcca;
+ Border: none;
+  outline: none;
+  border-bottom: 1px solid;
+  margin: .4rem 0;
+}
+
+.social{
+  margin: 3% 6%;
+  list-style: none;
+}
+.social a{
+  text-decoration: none;
+  color: #000000;
+
+
+}
+
+.book{
+  position: relative;
+  margin: 0 8%;
+
+}
+
+.book__bottom{
+  position: absolute;
+      bottom: 0;
+}
